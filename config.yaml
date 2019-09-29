@@ -2,6 +2,7 @@ baseURL: https://example.com
 languageCode: en-us
 title: Grant Esparza
 theme: colordrop
+publishDir: "gesparza.github.io"
 
 author:
   name: Grant Esparza
