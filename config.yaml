@@ -1,0 +1,50 @@
+baseURL: https://example.com
+languageCode: en-us
+title: Grant Esparza
+theme: colordrop
+
+author:
+  name: Grant Esparza
+  job: DevOps Engineer
+  image: profile.png
+  github: github
+  twitter: twitter
+  linkedin: linkedin
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: blog/
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 3
+  footer:
+    - identifier: github
+      name: github
+      url: "https://github.com/gesparza3"
+      weight: 1
+    - identifier: linkedin
+      name: linkedin
+      url: "https://www.linkedin.com/in/grant-esparza-19396b187/"
+      weight: 3
+    - identifier: email
+      name: email
+      url: "mailto:esparzagrant@gmail.com"
+      weight: 7
+
+params:
+  description: A blog for me to share cool things I've been learning and topics centered around software delivery.
+  siteLogo: profile.png
+  themeColor: "#420D09"
+  themeInverseColor: "#ffffff"
+
+languages:
+  en:
+    languageName: English
+    weight: 1
